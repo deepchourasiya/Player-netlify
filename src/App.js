@@ -5,6 +5,7 @@ import ReactPlayer from "react-player";
 function App() {
   return (
     <div className="App">
+      <h1>Video Player</h1>
       <ReactPlayer
         url="https://www.youtube.com/watch?v=mOUU8IEFoWo"
         controls
