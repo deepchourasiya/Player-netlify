@@ -1,7 +1,6 @@
 .App {
   display: flex;
-  flex-direction: row;
-  height: 100vh;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -30,6 +29,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.playerStyle{
+  padding: 10px 0px;
 }
 
 @keyframes App-logo-spin {
