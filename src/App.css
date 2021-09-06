@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100vh;
   align-items: center;
 }
 
@@ -31,7 +32,7 @@
   color: #61dafb;
 }
 
-.playerStyle{
+.playerStyle {
   padding: 10px 0px;
 }
 
@@ -41,5 +42,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .ytp-chrome-top {
+    display: none !important;
   }
 }
