@@ -108,8 +108,8 @@ function App() {
           {/* <Card className="videoPlayer"> */}
             {/* <CardActionArea className="videoPlayerCardArea"> */}
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=mOUU8IEFoWo&modestbranding=1&showinfo=0"
-                controls
+                url="https://www.youtube.com/watch?v=mOUU8IEFoWo"
+                controls={false}
                 width="100%"
                 height="100%"
                 modestbranding="1"
