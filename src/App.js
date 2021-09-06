@@ -105,11 +105,11 @@ function App() {
         </DialogTitle> */}
         {/* <DialogContent dividers> */}
         <div>
-          {/* <Card className="videoPlayer"> */}
-            {/* <CardActionArea className="videoPlayerCardArea"> */}
+          <Card className="videoPlayer">
+            <CardActionArea className="videoPlayerCardArea">
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=mOUU8IEFoWo"
-                controls={false}
+                controls={true}
                 width="100%"
                 height="100%"
                 modestbranding="1"
@@ -117,8 +117,8 @@ function App() {
                 playing
                 onError={(err) => console.log("Error", err)}
               />
-            {/* </CardActionArea> */}
-          {/* </Card> */}
+            </CardActionArea>
+          </Card>
         </div>
         {/* </DialogContent> */}
         {/* <DialogActions>
